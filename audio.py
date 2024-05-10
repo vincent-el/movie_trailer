@@ -31,7 +31,7 @@ def generate_audio(
             api_key=ELEVEN_API_KEY
         )
         if voice_id is None:
-            voice_id = "5f5f1a7f-4b3e-4f5b-9f3e-9f9e2c1d0c4d" # shitty default, pls replace
+            voice_id = "3EjFjB3Y002QFneTx80s"
         audio = client.generate(
             text=input_text,
             voice=Voice(
