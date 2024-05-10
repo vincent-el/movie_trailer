@@ -22,7 +22,9 @@ This project automates the creation of movie trailers for the "Detective Conan" 
    ```
 2. Set up environment variables:
    ```plaintext
-   OPENAI_API_KEY='your_openai_api_key_here'
+    OPENAI_API_KEY=
+    STABILITY_API_KEY=
+    ELEVEN_API_KEY=
    ```
 
 ## Configuration
