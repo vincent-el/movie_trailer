@@ -1,6 +1,4 @@
 # Detective Conan Movie Trailer Generator
-Two day hackathon project for **[AI Movie Studio](https://www.aimovie.studio/)**:
-
 [![AImovie.studio](./assets/image.png)](https://www.aimovie.studio/)
 
 https://github.com/vincent-el/movie_trailer/assets/64873226/a21201fb-b1dc-4c5d-ba5b-57a97bc8bbda
