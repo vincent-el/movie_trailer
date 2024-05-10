@@ -1,3 +1,6 @@
+import os
+import random
+
 from pydantic.v1 import BaseModel, Field, conlist
 from typing import Union, List, Optional, Literal
 
@@ -89,7 +92,14 @@ class Shot(BaseModel):
         if the character attribute is empty, set to None
         """
         if self.character_in_shot:
-            self.base_image_path = f"./assets/images/{self.character_in_shot.name.lower()}.jpeg"
+            # self.base_image_path = f"./assets/images/{self.character_in_shot.name.lower()}.jpeg"
+            character_name = self.character_in_shot.name.lower()
+            image_dir = "./assets/images"
+            character_images = [f for f in os.listdir(image_dir) if f.startswith(character_name) and f.endswith(".jpeg")]
+            if character_images:
+                self.base_image_path = os.path.join(image_dir, random.choice(character_images))
+            else:
+                self.base_image_path = None
         else:
             self.base_image_path = None
     
