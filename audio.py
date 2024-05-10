@@ -30,8 +30,9 @@ def generate_audio(
         client = ElevenLabs(
             api_key=ELEVEN_API_KEY
         )
-        if voice_id is None:
+        if voice_id is None or voice_id == "":
             voice_id = "3EjFjB3Y002QFneTx80s"
+
         audio = client.generate(
             text=input_text,
             voice=Voice(
@@ -41,12 +42,7 @@ def generate_audio(
             stream=True
         )
         
-        # TODO: fix the image saving
-        if type == "elevenlabs":
-            save(audio, output_path)
-        else: 
-            with open(output_path, "wb") as f:
-                f.write(audio)
+        save(audio, output_path)
                 
         # play(audio)
         
