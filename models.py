@@ -31,7 +31,7 @@ class Shot(BaseModel):
                                         Balance Creativity with Clarity: While it's important to be creative, ensure your prompt is clear and understandable to the AI.
                                         Use Descriptive Language: Vivid descriptions help the AI in visualizing and creating more accurate representations.
                                          """)
-    character_in_shot: Optional[Character] = Field(None, description="The character in the shot (if any) of the description or image generation prompt.")
+    character_in_shot: Optional[Character] = Field(None, description="The character who should be primarily visible in the shot")
     # video_generation_prompt: str = Field(..., description="Camera movement.")
     voice_over: VoiceOver = Field(..., description="A list of voice overs in a trailer.")
     base_image_path: Optional[str] = Field(None, description="The path to the base image used for generating the source image for the video generation.")
@@ -42,7 +42,7 @@ class Shot(BaseModel):
     def load_from_json(self, json_path: str):
         import json
         
-        with open('./output/scripts/2.json', 'r') as file:
+        with open(json_path) as file:
             data = json.load(file)
         
         # TODO: Extract the first shot from the shotlist
@@ -82,6 +82,9 @@ class Shot(BaseModel):
             output_path
         )
         self.audio_path = output_path
+    
+    def extract_character_from_description(self):
+        pass
     
     def find_base_image(self):
         """
@@ -140,7 +143,7 @@ class Shot(BaseModel):
         )
         self.video_path = output_path
         
-    def populate(self):
+    def shoot(self):
         """
         populates the shot with the necessary data
         """
@@ -151,10 +154,6 @@ class Shot(BaseModel):
 
 
 class Script(BaseModel):
-    """
-    You'll want to aim for a three-act structure, however abridged, in in your trailer. This means you'll establish characters, introduce the conflict or complications, and then raise the stakes and tease the conclusion.
-    The last shot of the trailer should build anticipation & intrigue for the audience.
-    """
     title: str = Field(..., description="The title of the movie, starting with Detective Conan:...")
     premise: str = Field(..., description="The 2 sentence premise of the movie trailer.")
     shotlist: List[Shot] = Field(..., description="Between 15 and 20 shots, each with a description, image generation prompt, video generation prompt, and dialogue.")
@@ -179,7 +178,7 @@ class Script(BaseModel):
                 image_generation_prompt=shot_data['image_generation_prompt'],
                 character_in_shot=Character(
                     name=shot_data['character_in_shot']['name'],
-                ) if 'character_in_shot' in shot_data else None,
+                ) if shot_data.get('character_in_shot') is not None else None,
                 voice_over=VoiceOver(
                     type=shot_data['voice_over']['type'],
                     text=shot_data['voice_over']['text'],
