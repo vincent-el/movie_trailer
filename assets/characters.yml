@@ -1,32 +1,18 @@
 - name: Conan
   description: "A high school detective turned into a child by a mysterious organization."
-
 - name: Ran
   description: "A high school student and skilled karate practitioner, daughter of a private detective."
-
 - name: Kogoro
   description: "A private detective and Ran's father, often unwittingly aided by Conan."
-
 - name: Kaito
   description: "A high school student and skilled magician, known for his alter ego, the elusive thief Kaito Kid."
-
 - name: Ai
   description: "A former member of the organization that transformed Conan, now living as a child."
-
 - name: Shinichi
   description: "The true identity of Conan, a famous high school detective."
-
 - name: Heiji
   description: "A high school detective from Osaka, often competes and cooperates with Conan."
-
-- name: Kazuha
-  description: "A childhood friend of Heiji, skilled in Aikido."
-
-- name: Sonoko
-  description: "Ran's best friend and a wealthy heiress, often involved in cases."
-
-- name: Eri
-  description: "Ran's mother and a successful attorney, often involved in legal aspects of cases."
-
 - name: Genta
   description: "A member of the Detective Boys, known for his strength and appetite."
+- name: Jin
+  description: "An evil guy, default antagonist."
