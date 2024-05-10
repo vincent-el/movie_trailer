@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 
 from openai import OpenAI
-from elevenlabs import Voice, VoiceSettings, play
+from elevenlabs import Voice, VoiceSettings, save
 from elevenlabs.client import ElevenLabs
 
 load_dotenv()
@@ -42,13 +42,12 @@ def generate_audio(
         )
         
         # TODO: fix the image saving
-        with open(output_path, "wb") as f:
-            if type == "elevenlabs":
-                for chunk in audio:
-                    if chunk:
-                        f.write(chunk)
-            else:
+        if type == "elevenlabs":
+            save(audio, output_path)
+        else: 
+            with open(output_path, "wb") as f:
                 f.write(audio)
+                
         # play(audio)
         
         return audio

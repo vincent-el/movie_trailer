@@ -82,6 +82,8 @@ class Shot(BaseModel):
             voice_id = "3EjFjB3Y002QFneTx80s"
         if self.character_in_shot == "kazuha":
             voice_id = "Nl4h2x8u0ud3VltIN3Ch"
+        if self.character_in_shot == "ai":
+            voice_id = "vwRlaUMqwnqD7g3rWVUR"
         audio = audio.generate_audio(
             input_text,
             output_path,
