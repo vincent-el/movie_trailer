@@ -1,4 +1,8 @@
 # Detective Conan Movie Trailer Generator
+Two day hackathon project for **[AI Movie Studio](https://www.aimovie.studio/)**
+[![AImovie.studio](./assets/image.png)](https://www.aimovie.studio/)
+
+*(loosely inspired by https://fablestudio.github.io/showrunner-agents/)*
 
 ## Overview
 This project automates the creation of movie trailers for the "Detective Conan" series. It converts a given news story into a compelling shotlist, generates audio and video for each shot, and compiles them into a final movie trailer.
@@ -20,7 +24,7 @@ This project automates the creation of movie trailers for the "Detective Conan" 
    ```bash
    pip install -r requirements.txt
    ```
-2. Set up environment variables:
+2. Set up environment variables in `.env`:
    ```plaintext
     OPENAI_API_KEY=
     STABILITY_API_KEY=
