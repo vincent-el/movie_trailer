@@ -105,7 +105,7 @@
         {
             "id": 6,
             "description": "Conan arrives at the crime scene the next morning, surveying the chaos with a grim expression.",
-            "image_generation_prompt": "A young boy detective, Conan, standing in a messy, crime-ridden bedroom, observing the scene with a serious and thoughtful expression.",
+            "image_generation_prompt": "A young detective, Conan, standing in a cluttered bedroom, examining the surroundings with a focused expression.",
             "character_in_shot": {
                 "name": "Conan"
             },
