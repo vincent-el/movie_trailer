@@ -1,5 +1,5 @@
 import os
-from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips, CompositeVideoClip
+from moviepy.editor import VideoFileClip, AudioFileClip, concatenate_videoclips
 
 def create_movie_clip(audio_folder, video_folder, output_file):
     # List of audio and video files sorted to ensure correct order
@@ -21,8 +21,7 @@ def create_movie_clip(audio_folder, video_folder, output_file):
         audio_clip = AudioFileClip(audio_path)
 
         # Set the audio of the video clip
-        # video_clip = video_clip.set_audio(audio_clip)
-        video_clip = CompositeVideoClip([video_clip.set_duration(audio_clip.duration), audio_clip])
+        video_clip = video_clip.set_audio(audio_clip)
 
         clips.append(video_clip)
 

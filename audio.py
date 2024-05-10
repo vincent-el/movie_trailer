@@ -7,7 +7,7 @@ from elevenlabs.client import ElevenLabs
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-ELEVEN_API_KEY = os.getenv("ELEVENLABS_API_KEY")
+ELEVEN_API_KEY = os.getenv("ELEVEN_API_KEY")
 
 def generate_audio(
     input_text: str,
@@ -51,8 +51,10 @@ def generate_audio(
 
 
 # input_text = "A sudden death, a mystery unfolds."
-# output_path = "./output/audio/1.mp3"
-# audio = generate_audio(input_text, output_path)
-
-
-
+# output_path = "./output/audio/_test.mp3"
+# audio = generate_audio(
+#     input_text,
+#     output_path,
+#     "elevenlabs",
+#     "vwRlaUMqwnqD7g3rWVUR"
+# )
