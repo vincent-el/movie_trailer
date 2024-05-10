@@ -77,9 +77,16 @@ class Shot(BaseModel):
         
         input_text = self.voice_over.text
         output_path = f"./output/audio/{self.id}.mp3"
+        voice_id = ""
+        if self.character_in_shot == "conan":
+            voice_id = "3EjFjB3Y002QFneTx80s"
+        if self.character_in_shot == "kazuha":
+            voice_id = "Nl4h2x8u0ud3VltIN3Ch"
         audio = audio.generate_audio(
             input_text,
-            output_path
+            output_path,
+            "elevenlabs",
+            voice_id
         )
         self.audio_path = output_path
     

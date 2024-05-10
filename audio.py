@@ -7,7 +7,7 @@ from elevenlabs.client import ElevenLabs
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-ELEVEN_API_KEY = os.getenv("ELEVEN_API_KEY")
+ELEVEN_API_KEY = os.getenv("ELEVENLABS_API_KEY")
 
 def generate_audio(
     input_text: str,
@@ -43,7 +43,12 @@ def generate_audio(
         
         # TODO: fix the image saving
         with open(output_path, "wb") as f:
-            f.write(audio)
+            if type == "elevenlabs":
+                for chunk in audio:
+                    if chunk:
+                        f.write(chunk)
+            else:
+                f.write(audio)
         # play(audio)
         
         return audio
