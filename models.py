@@ -127,7 +127,12 @@ class Shot(BaseModel):
         output_path = f"./output/images/{self.id}.jpeg"
         
         if self.character_in_shot:
-            video.generate_image_to_image(
+            # video.generate_image_to_image(
+            #     image=image,
+            #     prompt=prompt,
+            #     output_path=output_path
+            # )
+            video.replace_background_with_prompt(
                 image=image,
                 prompt=prompt,
                 output_path=output_path
@@ -135,6 +140,7 @@ class Shot(BaseModel):
         else:
             video.generate_text_to_image(prompt, output_path)
         self.image_path = output_path
+
     
     def generate_video(self):
         """
