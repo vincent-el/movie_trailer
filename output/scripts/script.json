@@ -1,17 +1,17 @@
 {
-    "title": "Detective Conan: Sermon of Suspense",
-    "premise": "A peaceful Sunday sermon turns into a scene of attempted murder when a gunman targets a pastor. Detective Conan steps in to unravel the mystery behind the attack and prevent a future tragedy.",
+    "title": "Detective Conan: Shadows of Deceit",
+    "premise": "In the dark alleys of London, a deadly robbery leads to the unexpected murder of a notorious drug dealer. Detective Conan embarks on a perilous journey to unravel the mystery behind the violent night, facing dangerous criminals and unexpected twists.",
     "shotlist": [
         {
             "id": 1,
-            "description": "The trailer opens with a serene view of a suburban church on a sunny morning.",
-            "image_generation_prompt": "A picturesque suburban church bathed in sunlight, with families walking towards the entrance, children playing, and birds flying.",
+            "description": "A quiet, eerie night scene showing a residential area in north London, setting a tense atmosphere.",
+            "image_generation_prompt": "A suburb at night, dimly lit streets with fog, a hint of suspense in the air, dark color tones.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "In a quiet town, a Sunday like any other...",
+                "text": "A silent night shattered by greed...",
                 "character": {
                     "name": "Conan"
                 },
@@ -24,14 +24,14 @@
         },
         {
             "id": 2,
-            "description": "Inside the church, the pastor begins his sermon, smiling warmly at the congregation.",
-            "image_generation_prompt": "Interior of a church, light streaming through stained glass windows, focusing on a middle-aged pastor at the pulpit, smiling at his congregation.",
+            "description": "A group of shadowy figures, armed and masked, quietly approaching a house, creating a sense of impending danger.",
+            "image_generation_prompt": "Shadowy figures in dark clothing, masks, moving stealthily towards a suburban house, night time, tense atmosphere.",
             "character_in_shot": {
-                "name": "Conan"
+                "name": "Jin"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "A sermon meant to bring peace and hope...",
+                "text": "Their target: a man with secrets.",
                 "character": {
                     "name": "Conan"
                 },
@@ -44,14 +44,14 @@
         },
         {
             "id": 3,
-            "description": "Suspense builds as a mysterious figure enters the church, his expression unreadable.",
-            "image_generation_prompt": "A shadowy figure entering the back of the church, his face partially obscured, creating an air of mystery and tension.",
+            "description": "Interior shot of a man, Olsi Kuka, sleeping in his bed, unaware of the danger approaching.",
+            "image_generation_prompt": "Interior of a bedroom, man sleeping peacefully, room dimly lit by a night lamp, suspenseful atmosphere.",
             "character_in_shot": {
-                "name": "Conan"
+                "name": "Kogoro"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "But not everyone came for the sermon...",
+                "text": "Unaware of the nightmare that awaits.",
                 "character": {
                     "name": "Conan"
                 },
@@ -64,16 +64,16 @@
         },
         {
             "id": 4,
-            "description": "The camera focuses on the man's hand as he slowly reaches inside his coat.",
-            "image_generation_prompt": "Close-up of a man's hand reaching inside his coat, hinting at a concealed weapon, with the church's wooden pews in the background.",
+            "description": "Sudden chaos as the robbers break in and attack, the scene is fast-paced and violent.",
+            "image_generation_prompt": "Action-packed scene of robbers breaking through a door, attacking a man in his bed, quick motions, dramatic lighting.",
             "character_in_shot": {
-                "name": "Conan"
+                "name": "Jin"
             },
             "voice_over": {
-                "type": "non-diegetic",
-                "text": "A moment of suspense... a concealed intention.",
+                "type": "diegetic",
+                "text": "Get everything!",
                 "character": {
-                    "name": "Conan"
+                    "name": "Jin"
                 },
                 "voice_model": null
             },
@@ -84,14 +84,14 @@
         },
         {
             "id": 5,
-            "description": "The congregation gasps as the man pulls out a gun and aims it at the pastor.",
-            "image_generation_prompt": "A horrified congregation as a man pulls a gun from his coat and aims it at the unsuspecting pastor at the pulpit.",
+            "description": "Conan examining the crime scene, looking for clues, his expression serious and focused.",
+            "image_generation_prompt": "Young detective examining a crime scene, focusing on details, wearing gloves, a magnifying glass in hand, thoughtful expression.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "In a split second, peace shatters...",
+                "text": "Every clue counts.",
                 "character": {
                     "name": "Conan"
                 },
@@ -104,14 +104,14 @@
         },
         {
             "id": 6,
-            "description": "The gun clicks but fails to fire, the pastor dives behind the lectern, chaos ensues.",
-            "image_generation_prompt": "The pastor diving for cover behind the lectern as the gun clicks without firing, causing panic among the congregation.",
+            "description": "Flashback to the trial in court, showing the accused robbers looking defiant and unrepentant.",
+            "image_generation_prompt": "Courtroom scene, accused individuals standing, defiant expressions, a judge and jury in the background, tense atmosphere.",
             "character_in_shot": {
-                "name": "Conan"
+                "name": "Kogoro"
             },
             "voice_over": {
-                "type": "diegetic",
-                "text": "You can hear the gun click.",
+                "type": "non-diegetic",
+                "text": "Justice demands truth.",
                 "character": {
                     "name": "Conan"
                 },
@@ -124,14 +124,14 @@
         },
         {
             "id": 7,
-            "description": "A brave deacon tackles the gunman, struggling to restrain him.",
-            "image_generation_prompt": "A church deacon heroically tackling the gunman in the aisle, trying to wrestle the gun away, with other congregants rushing to help.",
+            "description": "Conan and Heiji discussing the case, exchanging theories and pointing at a wall full of crime photos and notes.",
+            "image_generation_prompt": "Two young detectives discussing intensely in front of a wall covered in crime scene photos and notes, pointing at details, determined expressions.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
-                "type": "non-diegetic",
-                "text": "Courage rises amidst terror...",
+                "type": "diegetic",
+                "text": "There's more to this, Heiji.",
                 "character": {
                     "name": "Conan"
                 },
@@ -144,14 +144,14 @@
         },
         {
             "id": 8,
-            "description": "Detective Conan arrives, analyzing the scene with his keen detective skills.",
-            "image_generation_prompt": "Conan stepping into the church, his expression serious and focused, observing the chaos and the restrained gunman.",
+            "description": "A tense confrontation between Conan and the mastermind behind the robbery, hints of danger.",
+            "image_generation_prompt": "Intense face-off between a young detective and a criminal mastermind in a dark, moody setting, suspenseful atmosphere.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "But the truth lies deeper...",
+                "text": "Behind the shadows, lies deeper darkness.",
                 "character": {
                     "name": "Conan"
                 },
@@ -164,14 +164,14 @@
         },
         {
             "id": 9,
-            "description": "Intense investigation scenes follow, with Conan interrogating suspects and gathering clues.",
-            "image_generation_prompt": "Conan in deep conversation with various church members, showing intense expressions, with close-ups of hands exchanging items and notes being taken.",
+            "description": "A chase scene, Conan running after a suspect through the bustling streets of London, high energy and fast-paced.",
+            "image_generation_prompt": "Young detective chasing a suspect through crowded city streets, dynamic motion, blurred background to emphasize speed.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "Every clue, every whisper tells a story...",
+                "text": "The chase is on!",
                 "character": {
                     "name": "Conan"
                 },
@@ -184,14 +184,14 @@
         },
         {
             "id": 10,
-            "description": "The trailer cuts to a suspenseful chase sequence, with Conan pursuing a crucial lead.",
-            "image_generation_prompt": "Conan running through narrow city streets, dodging between pedestrians and vehicles, his face determined.",
+            "description": "Climactic scene with Conan setting a trap for the criminals, using his gadgets and intellect.",
+            "image_generation_prompt": "Young detective setting a sophisticated trap with gadgets, focused expression, in a dimly lit room, tension in the air.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
                 "type": "non-diegetic",
-                "text": "A race against time to prevent another tragedy...",
+                "text": "Every move is calculated.",
                 "character": {
                     "name": "Conan"
                 },
@@ -204,14 +204,14 @@
         },
         {
             "id": 11,
-            "description": "The trailer climaxes with a tense standoff involving Conan and the true mastermind.",
-            "image_generation_prompt": "A dramatic standoff at night, Conan facing off against a silhouetted figure on a rooftop, city lights in the background.",
+            "description": "Dramatic reveal as the true motives of the criminals are uncovered, Conan explains the connections with evidence in hand.",
+            "image_generation_prompt": "Revealing moment, young detective holding up evidence, explaining, criminals reacting in shock, dramatic lighting.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
-                "type": "non-diegetic",
-                "text": "Every mystery has its mastermind...",
+                "type": "diegetic",
+                "text": "Everything is connected.",
                 "character": {
                     "name": "Conan"
                 },
@@ -224,14 +224,54 @@
         },
         {
             "id": 12,
-            "description": "The final shot builds anticipation, with Conan declaring his deduction, backlit by the setting sun.",
-            "image_generation_prompt": "Conan standing confidently, backlit by a dramatic sunset, about to reveal the truth, with a shadowed crowd listening intently.",
+            "description": "The final face-off, Conan confronts the main antagonist, the tension is palpable.",
+            "image_generation_prompt": "Final showdown, young detective facing off against a criminal mastermind, intense expressions, dramatic, suspenseful setting.",
             "character_in_shot": {
                 "name": "Conan"
             },
             "voice_over": {
-                "type": "diegetic",
-                "text": "The truth is always within reach...",
+                "type": "non-diegetic",
+                "text": "Let the truth prevail.",
+                "character": {
+                    "name": "Conan"
+                },
+                "voice_model": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null,
+            "audio_path": null
+        },
+        {
+            "id": 13,
+            "description": "The aftermath, police arriving at the scene, criminals being arrested, Conan watching solemnly.",
+            "image_generation_prompt": "Aftermath of a crime scene, police cars and officers, criminals being handcuffed, young detective watching the scene, night setting.",
+            "character_in_shot": {
+                "name": "Conan"
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "In the shadows of deceit, justice finds a way.",
+                "character": {
+                    "name": "Conan"
+                },
+                "voice_model": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null,
+            "audio_path": null
+        },
+        {
+            "id": 14,
+            "description": "Closing shot of Conan walking away from the crime scene, his silhouette against the city lights, hinting at future mysteries.",
+            "image_generation_prompt": "Silhouette of a young detective walking away, city lights in the background, moody and contemplative atmosphere.",
+            "character_in_shot": {
+                "name": "Conan"
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "The city sleeps tonight, but evil never rests...",
                 "character": {
                     "name": "Conan"
                 },
