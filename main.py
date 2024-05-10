@@ -13,14 +13,12 @@ story = Script.from_json('./output/scripts/script.json')
 
 for shot in story.shotlist:
     print(shot.id)
-    if shot.id == 2: 
-    # if shot.id in [1, 2, 3, 4]: 
-        # shot.generate_audio()
-        shot.find_base_image()
-        # print(shot.base_image_path)
-        shot.generate_image()
-        # shot.generate_video()
-        
+    shot.generate_audio()
+    shot.find_base_image()
+    # print(shot.base_image_path)
+    shot.generate_image()
+    shot.generate_video()
+
 
 editor.create_movie_clip(
     audio_folder = './output/audio',
