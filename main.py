@@ -15,10 +15,8 @@ for shot in story.shotlist:
     print(shot.id)
     shot.generate_audio()
     shot.find_base_image()
-    # print(shot.base_image_path)
     shot.generate_image()
     shot.generate_video()
-
 
 editor.create_movie_clip(
     audio_folder = './output/audio',
