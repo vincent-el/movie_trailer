@@ -1,0 +1,282 @@
+{
+    "title": "Detective Conan: The Sermon of Survival",
+    "premise": "In a quiet suburb, a peaceful church service turns into a scene of suspense when an attacker targets the pastor. Detective Conan steps in to unravel the mystery behind the attack and prevent a tragedy.",
+    "shotlist": [
+        {
+            "id": 1,
+            "description": "A serene Sunday morning at Jesus' Dwelling Place Church, the congregation is gathered and the pastor begins his sermon.",
+            "image_generation_prompt": "A quaint church interior filled with congregants seated and listening attentively. Sunlight streams through stained glass windows, casting colorful patterns on the wooden pews.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "A peaceful Sunday service, or so they thought...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 2,
+            "description": "Tension builds as Bernard Polite enters the church, hiding a sinister intent beneath a calm demeanor.",
+            "image_generation_prompt": "A man in his mid-20s with a grim expression walks into a sunlit church, subtly holding something in his jacket pocket.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "But danger lurks beneath the surface...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 3,
+            "description": "The congregation gasps as Bernard Polite pulls out a gun aimed at the pastor.",
+            "image_generation_prompt": "A shocked congregation as a man pulls a gun from his jacket, aiming it at the unsuspecting pastor at the pulpit.",
+            "character": {
+                "name": "Kogoro",
+                "description": "A private detective and Ran's father, often unwittingly aided by Conan.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "diegetic",
+                "character": {
+                    "name": "Kogoro",
+                    "description": "A private detective and Ran's father, often unwittingly aided by Conan.",
+                    "voice_model": null
+                },
+                "text": "Everybody, get down!",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 4,
+            "description": "Dramatic moment as the gun clicks but fails to fire, the pastor dives for cover behind the lectern.",
+            "image_generation_prompt": "Pastor diving behind a wooden lectern in a church as a gun clicks without firing, papers flying in the air.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "A twist of fate...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 5,
+            "description": "In a heroic act, Deacon Clarence McCallister tackles the gunman, subduing him as the congregation watches in awe.",
+            "image_generation_prompt": "A church deacon heroically tackling a gunman to the ground in the aisle of a church, congregants watching with mixed expressions of shock and relief.",
+            "character": {
+                "name": "Heiji",
+                "description": "A high school detective from Osaka, often competes and cooperates with Conan.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "diegetic",
+                "character": {
+                    "name": "Heiji",
+                    "description": "A high school detective from Osaka, often competes and cooperates with Conan.",
+                    "voice_model": null
+                },
+                "text": "I've got him!",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 6,
+            "description": "Conan investigates the scene, piecing together clues about the assailant's motives.",
+            "image_generation_prompt": "Conan examining the jammed gun and other evidence at the church crime scene, deeply focused.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "What drove him to this desperate act?",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 7,
+            "description": "Flashback sequence showing Bernard's troubled past and mysterious voices that haunt him.",
+            "image_generation_prompt": "A dimly lit room with Bernard sitting alone, shadows casting over his troubled face as he hears whispering voices.",
+            "character": {
+                "name": "Kaito",
+                "description": "A high school student and skilled magician, known for his alter ego, the elusive thief Kaito Kid.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "Haunted by voices only he can hear...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 8,
+            "description": "As the investigation deepens, Conan uncovers a connection to another crime, increasing the stakes.",
+            "image_generation_prompt": "Conan and police at another crime scene, examining a body, with clues pointing to a connection between the incidents.",
+            "character": {
+                "name": "Ai",
+                "description": "A former member of the organization that transformed Conan, now living as a child.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "A deeper conspiracy unfolds...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 9,
+            "description": "Conan confronts Bernard in his cell, seeking answers to the puzzling case.",
+            "image_generation_prompt": "Conan speaking to Bernard through the bars of a dimly lit jail cell, both showing intense expressions.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "Why did you do it?",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 10,
+            "description": "The thrilling climax builds as Conan pieces together the final clues, racing against time to prevent another attack.",
+            "image_generation_prompt": "Conan running with urgency, a series of quick flashes of evidence and suspects' faces, suggesting a race against time.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "Every second counts...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 11,
+            "description": "In a dramatic revelation, Conan exposes the true mastermind behind the plot, shocking everyone involved.",
+            "image_generation_prompt": "Conan revealing the true culprit in front of the stunned congregation and police, pointing confidently.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "The truth comes to light...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 12,
+            "description": "The trailer ends with a suspenseful note hinting at unresolved mysteries and future adventures.",
+            "image_generation_prompt": "Dark clouds over the church, Conan looking thoughtfully into the distance, hinting at unresolved mysteries.",
+            "character": {
+                "name": "Conan",
+                "description": "A high school detective turned into a child by a mysterious organization.",
+                "voice_model": null
+            },
+            "voice_over": {
+                "type": "non-diegetic",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                },
+                "text": "But some mysteries still remain...",
+                "audio_path": null
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        }
+    ]
+}

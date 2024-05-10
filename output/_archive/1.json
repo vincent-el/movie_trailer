@@ -1,0 +1,186 @@
+{
+    "title": "Detective Conan: Shadows of Deception",
+    "premise": "In the cold streets of London, Conan embarks on a thrilling chase to unravel the mystery behind a violent robbery that led to the tragic death of a notorious drug dealer. With danger at every turn, can Conan outwit a ruthless team of criminals before they strike again?",
+    "shotlist": [
+        {
+            "id": 1,
+            "description": "Aerial view of London at night, the city lights illuminate the scene.",
+            "characters": null,
+            "image_generation_prompt": "Aerial view of London at night, showing the city lights and dark, sprawling streets.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "London, a city where shadows hide more than just secrets.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 2,
+            "description": "Close-up of a newspaper headline reading 'Mysterious Death Shocks North London', with Conan observing it.",
+            "characters": null,
+            "image_generation_prompt": "Close-up of a newspaper with a headline about a mysterious death, held by a child detective, with curiosity in his eyes.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "A sudden death, a mystery unfolds.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 3,
+            "description": "Dark figures breaking into a house, armed and masked, tension is palpable.",
+            "characters": null,
+            "image_generation_prompt": "Several masked figures with weapons, sneaking into a suburban house at night, under the cover of darkness.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "A planned heist with deadly intentions.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 4,
+            "description": "Conan, Kogoro, and Ran arriving at the crime scene, greeted by police.",
+            "characters": null,
+            "image_generation_prompt": "A young boy detective, a middle-aged man, and a young girl arriving at a bustling crime scene with police tape and officers.",
+            "voice_over": {
+                "type": "diegetic",
+                "text": "What happened here?",
+                "character": {
+                    "name": "Ran",
+                    "description": "A high school student and skilled karate practitioner, daughter of a private detective.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 5,
+            "description": "Flashback to the crime, a violent struggle inside the house, glimpses of a knife and fear.",
+            "characters": null,
+            "image_generation_prompt": "A chaotic and violent struggle in a dimly lit room, flashes of a knife and terrified faces.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "In the dead of night, a life was taken.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 6,
+            "description": "Conan analyzing the scene with his gadgets, focused and determined.",
+            "characters": null,
+            "image_generation_prompt": "A child detective using high-tech gadgets at a crime scene, examining evidence with a serious expression.",
+            "voice_over": {
+                "type": "diegetic",
+                "text": "Every detail tells a story.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 7,
+            "description": "Tense confrontation between Conan and a shadowy figure, only silhouettes seen.",
+            "characters": null,
+            "image_generation_prompt": "A silhouette of a small detective confronting a larger, menacing silhouette in a dimly lit alley.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "But some stories are dangerous to tell.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 8,
+            "description": "Rapid montage of action: running through the streets, dodging attacks, intense karate moves by Ran.",
+            "characters": null,
+            "image_generation_prompt": "A fast-paced montage of a chase through city streets, a young girl performing karate moves, and close calls with unseen attackers.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "The chase leads to truths best left hidden.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 9,
+            "description": "Dramatic reveal, the mastermind behind the shadows, a figure turning towards the camera.",
+            "characters": null,
+            "image_generation_prompt": "A dramatic turn of a mysterious figure in a dark room, slowly facing towards the camera, revealing a glimpse of their face.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "And the mastermind emerges from the shadows.",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        },
+        {
+            "id": 10,
+            "description": "Final shot of Conan, determined, with London's skyline in the background at dusk.",
+            "characters": null,
+            "image_generation_prompt": "A determined young detective standing with a backdrop of London's skyline during dusk, the city bathed in a soft glow.",
+            "voice_over": {
+                "type": "non-diegetic",
+                "text": "This mystery... I will solve it!",
+                "character": {
+                    "name": "Conan",
+                    "description": "A high school detective turned into a child by a mysterious organization.",
+                    "voice_model": null
+                }
+            },
+            "base_image_path": null,
+            "image_path": null,
+            "video_path": null
+        }
+    ]
+}
