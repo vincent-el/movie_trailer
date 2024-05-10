@@ -1,5 +1,9 @@
 python-dotenv==1.0.1
+
 openai
+elevenlabs
+
 langchain==0.1.19
 langchain-openai
+
 moviepy
